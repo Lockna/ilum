@@ -9,7 +9,7 @@ Ilum is a Hardware-Access-Layer for the Teensy 4.0, which is using the NXP iMXRT
 
 - `objcopy` for transforming Rust binaries into hex files. I use LLVM objcopy provided by
     
-    `[cargo binutils](https://github.com/rust-embedded/cargo-binutils)`
+    [`cargo binutils`](https://github.com/rust-embedded/cargo-binutils)
 - Last but not least you'll need the [teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) or [Teensy Loader Application](https://www.pjrc.com/teensy/loader.html)
 
     to download your programs to your Teensy 4.0.
