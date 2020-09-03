@@ -1,7 +1,35 @@
 # ilum
-Ilum is a Hardware-Abstract-Layer for the Teensy 4.0, which is using the NXP iMXRT1062 ARM CPU
+Ilum is a Hardware-Access-Layer for the Teensy 4.0, which is using the NXP iMXRT1062 Cortex-M7 ARM CPU
 
-## Setup
+## Dependencies
+- A Rust installation, I recommend an installation using `rustup`
+- The `thumbv7em-none-eabihf` Rust target, which may be installed using `rustup`:
+
+    `$ rustup target add thumbv7em-none-eabihf`
+
+- `objcopy` for transforming Rust binaries into hex files. I use LLVM objcopy provided by
+    
+    `[cargo binutils](https://github.com/rust-embedded/cargo-binutils)`
+- Last but not least you'll need the [teensy_loader_cli](https://github.com/PaulStoffregen/teensy_loader_cli) or [Teensy Loader Application](https://www.pjrc.com/teensy/loader.html)
+
+    to download your programs to your Teensy 4.0.
+
+## Usage
+Coming soon
+
+## Project structure
+This project includes several crates. 
+- `ilum-init` is setting up the MCU for use.
+- `ilum-hal` is a Hardware-Access-Layer for the iMXRT1062.
+- `ilum-bsp` is the board-support-package (coming) which depends on the depends on the previous mentioned crates.
+    
+### ilum-init
+Coming soon
+
+### ilum-hal
+Coming soon
+
+### ilum-bsp
 Coming soon
 
 ## Contributing
