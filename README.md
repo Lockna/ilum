@@ -1,5 +1,5 @@
 # ilum
-Ilum is a Hardware-Access-Layer for the Teensy 4.0, which is using the NXP iMXRT1062 Cortex-M7 ARM CPU
+Ilum is a collection of self-written crates to provide support for the Rust programming language on the Teensy 4.0
 
 ## Dependencies
 - A Rust installation, I recommend an installation using `rustup`
