@@ -19,7 +19,7 @@ use core::panic::PanicInfo;
 
 #[inline(never)]
 #[panic_handler]
-fn panic(info: &PanicInfo) -> ! {
+fn panic(_info: &PanicInfo) -> ! {
 
 	loop {}
 
