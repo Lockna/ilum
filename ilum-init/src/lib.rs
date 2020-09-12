@@ -6,7 +6,7 @@ mod fpu;
 mod nvic;
 
 #[no_mangle]
-pub unsafe extern "C" fn _start() -> ! {
+pub unsafe extern "C" fn Reset() -> ! {
 	cache::init();
 	fpu::init();
 	nvic::init();
