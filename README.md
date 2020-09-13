@@ -29,8 +29,6 @@ Coming soon
 ### ilum-hal
 Coming soon
 
-### ilum-bsp
-Coming soon
 
 ## Contributing
 Contributions to code and documentation are heavily appreciated, may it be a bug fix, a new feature, or improvement of the code or wiki documentation.
