@@ -1,6 +1,6 @@
 [package]
 authors = ["Raphael O. <raphael.ob@protonmail.com>"]
-name = "panic_handler"
+name = "ilum-panic"
 version = "0.1.0"
 description = "Set panicking behaviour to halt"
 edition = "2018"
