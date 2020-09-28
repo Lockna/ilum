@@ -2,5 +2,5 @@
 members = [
     "ilum-init",
     "ilum-hal",
-    "panic_handler"
+    "ilum-panic"
 ]
